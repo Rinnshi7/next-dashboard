@@ -5,8 +5,9 @@ import {
     AlertDialogTitle,
     AlertDialogTrigger
 } from "@/components/ui/alert-dialog";
+import {ReactNode} from "react";
 
-export default function TurnDumb({children}) {
+export default function TurnDumb({children}:{children:ReactNode}) {
     return <AlertDialog>
         <AlertDialogTrigger>{children}</AlertDialogTrigger>
         <AlertDialogContent>
