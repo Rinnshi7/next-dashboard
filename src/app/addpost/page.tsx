@@ -1,5 +1,4 @@
 import {PrismaClient} from "@prisma/client";
-import {map} from "yaml/dist/schema/common/map";
 
 const prisma = new PrismaClient()
 
